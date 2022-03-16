@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+header{
+    display: block;
+    padding-top: 50px;
+    font-variant: small-caps;
+    margin: auto;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    margin: auto;
+    font-family:var(--fonte2) ;
+    font-size: 10vw;
+    text-align: center;
+}
+header > p {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: var(--fonte1);
+    font-size: 1em;
+}
+
+header a, footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+.normal  {
+    background-color: white;
+    color: black;
+    
+}
+
+ .imagem {
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.459);
+ }
+
+.imagem > p {
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.418);
+    text-shadow: 1px 1px 0px black;
+}
+
+#img1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img2 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    
+    text-align: center;
+    font-family: var(--fonte1);
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
